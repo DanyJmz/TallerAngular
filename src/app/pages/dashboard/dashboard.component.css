@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 150px;
+    background-color: #8d6e63;
+}
+
+.admin{
+    width: 250px;
+    height: 250px; 
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #1e3e2a;
+
+}
+
+.vendedor{
+    width: 250px;
+    height: 250px; 
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    background-color: #3e1e34;
+
+}

@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-body">
+        <h1 class="title">{{data.name}}</h1>
+        <input id="text" type="text" class="input" (change)="onChange($event)">
+        <p class="info">{{data.description}}</p>
+        @if (data.price) {
+            <p class="info">{{data.price}}</p>
+        }
+    </div>
+    <div class="card-footer">
+        <button class="btn" (click)="onClick()">Ver Datos</button>
+    </div> 
+</div>
+  
