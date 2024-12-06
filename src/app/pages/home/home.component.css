@@ -1,17 +1,33 @@
-.btn{
-    padding: 5px 10px;
-    font-size: 14px;
-    font-weight: 500;
-    background-color:  #604a43  ;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    &:active{
-        background-color:  #bdbdbd;
+.box{
+    background-color: rgba(73, 41, 22, 0.541);
+    padding: 20px;
+    border-radius: 15px;
+    h3{ 
+        font-size: 3rem;
+        font-weight: 900;
+        text-align: center;
+        color: white;
+        font: bold;
     }
-} 
-
-
-
-
-
+    input{
+        width: 99%;
+        height: 45px;
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    label{
+        color: white;
+    }
+    .white{
+        color: white;
+    }
+    .controllers{
+        display: flex;
+        justify-content: center;
+    }
+    button{
+        font-size: 1.8rem;
+        padding: 5px 10px;
+        font-weight: 500;
+    }
+}
